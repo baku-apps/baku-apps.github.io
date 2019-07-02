@@ -167,8 +167,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url('../assets/img/header-bg.jpg');
-    background-repeat: no-repeat;
+    background: url(https://d1qmdf3vop2l07.cloudfront.net/teal-worm.cloudvent.net/compressed/_min_/9a30e6c6c75344e5bd217bbe9720ef3e.png);
+    // background-image: url('../assets/img/header-bg.jpg');
+    background-repeat: repeat;
     background-attachment: scroll;
     background-position: center center;
     @include background-cover;
@@ -192,6 +193,19 @@ header {
             margin-bottom: 25px;
         }
     }
+
+    // -webkit-transform: skewY(-5deg);
+    // -moz-transform: skewY(-5deg);
+    // -ms-transform: skewY(-5deg);
+    // -o-transform: skewY(-5deg);
+    // transform: skewY(-5deg);
+
+    // > div {
+    //     -webkit-transform: skewY(5deg);
+    //     -moz-transform: skewY(5deg);
+    //     -ms-transform: skewY(5deg);
+    //     transform: skewY(5deg);
+    // }
 }
 
 @media(min-width:768px) {
@@ -234,6 +248,19 @@ section {
         font-weight: 400;
         margin-bottom: 75px;
     }
+
+    // -webkit-transform: skewY(-5deg);
+    // -moz-transform: skewY(-5deg);
+    // -ms-transform: skewY(-5deg);
+    // -o-transform: skewY(-5deg);
+    // transform: skewY(-5deg);
+
+    // > div {
+    //     -webkit-transform: skewY(5deg);
+    //     -moz-transform: skewY(5deg);
+    //     -ms-transform: skewY(5deg);
+    //     transform: skewY(5deg);
+    // }
 }
 
 @media(min-width:768px) {

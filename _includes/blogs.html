@@ -1,27 +1,27 @@
-<!-- Portfolio Grid Section -->
-<section id="portfolio" class="bg-light-gray">
+<!-- Blog Grid Section -->
+<section id="blogs">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Recent Projects</h2>
-                <h3 class="section-subheading text-muted"> </h3>
+                <h2 class="section-heading">Blogs</h2>
+                <h3 class="section-subheading text-muted">Keeping up with the fast changing technology playfield.</h3>
             </div>
         </div>
         <div class="row">
 
-          {% for project in site.data.works %}
+          {% for blog in site.data.blogs %}
             <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#{{ project.id }}" class="portfolio-link" data-toggle="modal">
+                <a href="#{{ blog.id }}" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="/assets/img/portfolio/{{ project.photo }}" class="img-responsive" alt="{{ project.img-alt }}">
+                    <img src="/assets/img/portfolio/{{ blog.photo }}" class="img-responsive" alt="{{ blog.img-alt }}">
                 </a>
                 <div class="portfolio-caption">
-                    <h4>{{ project.name }}</h4>
-                    <p class="text-muted">{{ project.category }}</p>
+                    <h4>{{ blog.name }}</h4>
+                    <p class="text-muted">{{ blog.category }}</p>
                 </div>
             </div>
           {% endfor %}

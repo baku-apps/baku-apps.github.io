@@ -1,11 +1,14 @@
-- name: "E-Commerce"
-  icon: "shopping-cart"
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+- name: "Mobile App Development"
+  icon: "mobile"
+  description: "We develop cross-plaform mobile apps and all aspects involved. 
+    BaKu Apps is experienced in delivering the right mobile solution for you."
 
-- name: "Responsive Design"
+- name: "Web Development"
   icon: "laptop"
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  description: "From website to web app we will develop the right solution for you. If it's .NET, 
+    Javascript web technologies or Wordpress, we will find the right tools for your solution."
 
-- name: "Web Security"
-  icon: "lock"
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+- name: "IoT & Automation"
+  icon: "code-fork"
+  description: "We automate data collection using sensors to make farms, warehouses, and machinery smarter. 
+    Or perhaps to just brew your own craft beer at home!"
