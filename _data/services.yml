@@ -1,4 +1,4 @@
-- name: "Mobile App Development"
+- name: "Mobile App Developments"
   icon: "mobile"
   description: "We develop cross-plaform mobile apps and all aspects involved. 
     BaKu Apps is experienced in delivering the right mobile solution for you."
@@ -12,3 +12,7 @@
   icon: "code-fork"
   description: "We automate data collection using sensors to make farms, warehouses, and machinery smarter. 
     Or perhaps to just brew your own craft beer at home!"
+
+- name: "Training"
+  icon: "code-fork"
+  description: "We provide on-site and remote Xamarin and Flutter training. From introdution to advanced topics. Our expert trainers will take your team to the next level."
