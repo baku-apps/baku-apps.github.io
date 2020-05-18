@@ -771,19 +771,6 @@ body {
   webkit-tap-highlight-color: $theme-primary;
 }
 
-// pricing
-.pricing-header {
-  max-width: 700px;
-}
-
-.card-deck .card {
-  min-width: 250px;
-}
-
-.shadow-sm {
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-}
-
 section#pricing {
   h3.pricing-table-subheading {
     font-size: 16px;
@@ -794,16 +781,27 @@ section#pricing {
     margin-top: 64px;
     margin-bottom: 16px;
   }
+  // pricing
+  .pricing-header {
+    max-width: 220px;
+  }
 
+  .card-deck .card {
+    min-width: 220px;
+  }
+
+  .shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  }
 }
 
-// @media (min-width: 767px) {
-//   #pricing {
-//     .card {
-//       margin: 0 0 30px;
-//     }
-//   }
-// }
+@media (min-width: 767px) {
+  #pricing {
+    .card {
+      margin: 20px 20px 20px 20px;
+    }
+  }
+}
 
 .card {
   position: relative;
